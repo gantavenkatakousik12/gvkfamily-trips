@@ -1,0 +1,78 @@
+{
+  "video_references": {
+    "full_trip_overview": [
+      {
+        "title": "Varanasi Ayodhya Full Tour Plan (Telugu)",
+        "language": "Telugu",
+        "purpose": "Complete itinerary understanding",
+        "youtube_url": "https://www.youtube.com/watch?v=dplJv9SaC_s"
+      },
+      {
+        "title": "Varanasi + Ayodhya Budget Travel Plan",
+        "language": "Hindi/English",
+        "purpose": "Cost breakdown and logistics",
+        "youtube_url": "https://www.youtube.com/watch?v=4oZo6KS1zVw"
+      }
+    ],
+
+    "varanasi": [
+      {
+        "title": "Varanasi Full Tour Guide (Kashi Yatra Telugu)",
+        "language": "Telugu",
+        "purpose": "Temple darshan + ghat navigation",
+        "youtube_url": "https://www.youtube.com/watch?v=erxzYWEUtDw"
+      },
+      {
+        "title": "2 Days in Varanasi Complete Guide",
+        "language": "English",
+        "purpose": "Structured modern travel walkthrough",
+        "youtube_url": "https://www.youtube.com/watch?v=JRRaj6_crdw"
+      }
+    ],
+
+    "ganga_aarti": [
+      {
+        "title": "Ganga Aarti Varanasi Telugu Vlog",
+        "language": "Telugu",
+        "purpose": "Understand seating, timing, crowd flow",
+        "youtube_url": "https://www.youtube.com/watch?v=86NElQdf2Dc"
+      },
+      {
+        "title": "Varanasi Ganga Aarti Real Experience",
+        "language": "Telugu",
+        "purpose": "Live experience and expectations",
+        "youtube_url": "https://www.youtube.com/watch?v=oWYyCtBvyUg"
+      }
+    ],
+
+    "ayodhya": [
+      {
+        "title": "Ayodhya Ram Mandir Full Tour Guide",
+        "language": "Hindi",
+        "purpose": "Ram Mandir darshan flow + nearby temples",
+        "youtube_url": "https://www.youtube.com/watch?v=Vxw9z0k6l6Q"
+      },
+      {
+        "title": "Ayodhya Complete Travel Guide",
+        "language": "English",
+        "purpose": "Temple sequence + local navigation",
+        "youtube_url": "https://www.youtube.com/watch?v=1gX6K9s8QwE"
+      }
+    ],
+
+    "transport_and_navigation": [
+      {
+        "title": "How to Travel in Varanasi (Auto, Boat, Walking Guide)",
+        "language": "Hindi",
+        "purpose": "Local transport hacks + cost saving",
+        "youtube_url": "https://www.youtube.com/watch?v=9dK8l0mYp7E"
+      },
+      {
+        "title": "Indian Train Travel Guide (3AC, Boarding, Tips)",
+        "language": "English",
+        "purpose": "Train journey preparation",
+        "youtube_url": "https://www.youtube.com/watch?v=2c6yY9m5r0E"
+      }
+    ]
+  }
+}

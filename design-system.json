@@ -1,0 +1,475 @@
+{
+  "designSystem": {
+    "brand": {
+      "name": "BromoRise",
+      "altName": "BromoRao"
+    },
+
+    "colors": {
+      "background": {
+        "page": "#FFFFFF",
+        "section": "#F7F5F2",
+        "card": "#FFFFFF",
+        "navbar": "rgba(255,255,255,0.92)",
+        "navbarDark": "rgba(0,0,0,0.75)",
+        "heroOverlay": "rgba(0,0,0,0.35)",
+        "ctaOverlay": "rgba(0,0,0,0.45)",
+        "footerDark": "#1C1C1C"
+      },
+      "text": {
+        "primary": "#111111",
+        "secondary": "#555555",
+        "muted": "#888888",
+        "onDark": "#FFFFFF",
+        "onDarkMuted": "rgba(255,255,255,0.65)"
+      },
+      "accent": {
+        "amber": "#E8973A",
+        "amberHover": "#C97D28",
+        "note": "Used ONLY for highlighted words in section titles and star ratings. NOT used as backgrounds or large fills."
+      },
+      "stars": "#F5C033",
+      "border": "#E8E4DF",
+      "stepActiveBg": "#FFFFFF",
+      "stepActiveBorder": "#E8E4DF"
+    },
+
+    "typography": {
+      "fonts": {
+        "heading": "Playfair Display, Georgia, serif",
+        "body": "DM Sans, sans-serif"
+      },
+      "googleFontsUrl": "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=DM+Sans:wght@300;400;500;600&display=swap",
+      "styles": {
+        "heroTitle": {
+          "fontFamily": "Playfair Display",
+          "fontSize": "clamp(36px, 5.5vw, 68px)",
+          "fontWeight": 700,
+          "lineHeight": 1.1,
+          "letterSpacing": "-0.02em",
+          "color": "#FFFFFF"
+        },
+        "sectionTitle": {
+          "fontFamily": "Playfair Display",
+          "fontSize": "clamp(28px, 3.5vw, 48px)",
+          "fontWeight": 700,
+          "lineHeight": 1.2,
+          "letterSpacing": "-0.02em",
+          "color": "#111111"
+        },
+        "sectionTitleAccent": {
+          "color": "#E8973A",
+          "note": "Apply to specific words inside sectionTitle only"
+        },
+        "eyebrow": {
+          "fontFamily": "DM Sans",
+          "fontSize": "12px",
+          "fontWeight": 500,
+          "letterSpacing": "0.10em",
+          "textTransform": "uppercase",
+          "color": "#888888",
+          "hasSmallIcon": true,
+          "iconDescription": "tiny link/pin SVG icon placed after the text"
+        },
+        "bodyText": {
+          "fontFamily": "DM Sans",
+          "fontSize": "14px",
+          "fontWeight": 400,
+          "lineHeight": 1.7,
+          "color": "#555555"
+        },
+        "navLink": {
+          "fontFamily": "DM Sans",
+          "fontSize": "14px",
+          "fontWeight": 500,
+          "color": "#FFFFFF"
+        },
+        "cardTitle": {
+          "fontFamily": "DM Sans",
+          "fontSize": "15px",
+          "fontWeight": 600,
+          "color": "#111111"
+        },
+        "cardDesc": {
+          "fontFamily": "DM Sans",
+          "fontSize": "12px",
+          "fontWeight": 400,
+          "color": "#888888",
+          "lineHeight": 1.6
+        },
+        "price": {
+          "fontFamily": "DM Sans",
+          "fontSize": "16px",
+          "fontWeight": 700,
+          "color": "#111111"
+        },
+        "priceUnit": {
+          "fontFamily": "DM Sans",
+          "fontSize": "12px",
+          "fontWeight": 400,
+          "color": "#888888"
+        },
+        "stepTitle": {
+          "fontFamily": "DM Sans",
+          "fontSize": "14px",
+          "fontWeight": 600,
+          "color": "#111111"
+        },
+        "stepDesc": {
+          "fontFamily": "DM Sans",
+          "fontSize": "13px",
+          "color": "#555555",
+          "lineHeight": 1.6
+        },
+        "testimonialName": {
+          "fontFamily": "DM Sans",
+          "fontSize": "13px",
+          "fontWeight": 600,
+          "color": "#111111"
+        },
+        "testimonialText": {
+          "fontFamily": "DM Sans",
+          "fontSize": "12px",
+          "color": "#555555",
+          "lineHeight": 1.6
+        },
+        "footerColTitle": {
+          "fontFamily": "DM Sans",
+          "fontSize": "13px",
+          "fontWeight": 600,
+          "color": "#FFFFFF",
+          "marginBottom": "16px"
+        },
+        "footerLink": {
+          "fontFamily": "DM Sans",
+          "fontSize": "13px",
+          "color": "rgba(255,255,255,0.6)"
+        },
+        "copyright": {
+          "fontFamily": "DM Sans",
+          "fontSize": "12px",
+          "color": "rgba(255,255,255,0.4)"
+        }
+      }
+    },
+
+    "spacing": {
+      "sectionPaddingY": "96px",
+      "containerMaxWidth": "1200px",
+      "containerPaddingX": "clamp(20px, 5vw, 64px)",
+      "cardPadding": "20px",
+      "cardGap": "16px"
+    },
+
+    "borderRadius": {
+      "card": "14px",
+      "image": "14px",
+      "pill": "9999px",
+      "button": "9999px",
+      "stepActiveRow": "10px",
+      "heroCard": "12px",
+      "input": "9999px",
+      "socialIcon": "50%"
+    },
+
+    "shadows": {
+      "card": "0 2px 16px rgba(0,0,0,0.08)",
+      "cardHover": "0 8px 32px rgba(0,0,0,0.14)",
+      "heroFloatingCard": "0 8px 32px rgba(0,0,0,0.35)"
+    },
+
+    "navbar": {
+      "height": "64px",
+      "backgroundOnHero": "transparent",
+      "backgroundOnScroll": "rgba(255,255,255,0.95) with backdrop-filter blur(16px)",
+      "position": "fixed top:0",
+      "logoColor": "#FFFFFF on hero, #111111 when scrolled",
+      "links": ["Home", "Packages", "Gallery", "How it works", "Contact"],
+      "cta": {
+        "label": "Book now",
+        "background": "#111111",
+        "color": "#FFFFFF",
+        "borderRadius": "9999px",
+        "padding": "9px 20px",
+        "fontSize": "13px",
+        "fontWeight": 600
+      }
+    },
+
+    "sections": {
+      "hero": {
+        "height": "100vh",
+        "background": "full-bleed photo of Mount Bromo at sunrise/dusk",
+        "overlay": "rgba(0,0,0,0.35)",
+        "contentAlignment": "bottom-left",
+        "paddingBottom": "80px",
+        "badge": {
+          "text": "East Java's Natural Wonder",
+          "style": "small grey uppercase text above the title"
+        },
+        "title": "Unforgettable Mount Bromo Sunrise Experience",
+        "titleColor": "#FFFFFF",
+        "floatingPhotoCards": {
+          "position": "absolute, right side of hero",
+          "layout": "2 columns of stacked rounded photo cards",
+          "count": 4,
+          "borderRadius": "12px",
+          "shadow": "0 8px 32px rgba(0,0,0,0.35)",
+          "border": "none",
+          "background": "real photo",
+          "sizes": {
+            "col1card1": "160x100px landscape",
+            "col1card2": "160x190px portrait",
+            "col2card1": "140x82px landscape",
+            "col2card2": "140x82px landscape"
+          }
+        }
+      },
+
+      "moments": {
+        "background": "#FFFFFF",
+        "paddingY": "96px",
+        "eyebrow": "Pure Adventure",
+        "title": "Unforgettable Moments in the Heart of Mount Bromo",
+        "titleColor": "#111111",
+        "desc": "Experience breathtaking sunrises, explore volcanic landscapes, and create memories at one of Indonesia's most iconic destinations.",
+        "galleryLayout": "horizontal scroll, drag/swipe",
+        "galleryCards": {
+          "borderRadius": "14px",
+          "overflow": "hidden",
+          "heights": "mixed — portrait ~280px, landscape ~210px",
+          "labelOverlay": {
+            "gradient": "linear-gradient(to top, rgba(0,0,0,0.6), transparent)",
+            "textColor": "#FFFFFF",
+            "fontSize": "13px"
+          }
+        },
+        "navigation": {
+          "prevNextButtons": "36px circle, border 1px solid #E8E4DF, bg white",
+          "progressBar": "thin 2px line, grey bg, amber fill, max-width 160px"
+        }
+      },
+
+      "packages": {
+        "background": "#FFFFFF",
+        "paddingY": "96px",
+        "eyebrow": "Bromo Tours",
+        "title": "Discover the Best Bromo Adventures for Every Kind of Traveler",
+        "accentWords": "Bromo Adventures",
+        "desc": "Carefully crafted tour packages for every traveler...",
+        "layout": {
+          "type": "CSS grid: 1 large left card + 2x2 right grid",
+          "gap": "16px"
+        },
+        "featuredCard": {
+          "gridArea": "spans 2 rows on left",
+          "imageHeight": "100% of card",
+          "titleOnImage": true,
+          "titleColor": "#FFFFFF",
+          "imageOverlay": "linear-gradient(to top, rgba(0,0,0,0.75) 0%, transparent 50%)",
+          "borderRadius": "14px"
+        },
+        "regularCard": {
+          "imageHeight": "160px",
+          "bodyPadding": "16px",
+          "background": "#FFFFFF",
+          "border": "none",
+          "shadow": "0 2px 16px rgba(0,0,0,0.08)",
+          "borderRadius": "14px",
+          "priceRow": {
+            "display": "flex",
+            "justifyContent": "space-between",
+            "alignItems": "center"
+          },
+          "bookNowLink": {
+            "text": "Book Now →",
+            "fontSize": "13px",
+            "fontWeight": 600,
+            "color": "#111111"
+          }
+        },
+        "packages": [
+          { "name": "Sunrise Explorer", "price": "$39", "unit": "person" },
+          { "name": "Adventure Trail", "price": "$69", "unit": "person" },
+          { "name": "Night & Stars Escape", "price": "$109", "unit": "person" },
+          { "name": "Private Bromo Journey", "price": "$149", "unit": "person" }
+        ]
+      },
+
+      "howToBook": {
+        "background": "#FFFFFF",
+        "paddingY": "96px",
+        "mainTitle": "How to Book Your Tour",
+        "subTitle": "Book Tour in 4 Easy Steps",
+        "layout": "2 columns: left (tabs + steps) | right (photo)",
+        "tabs": {
+          "style": "small horizontal pill chips",
+          "fontSize": "12px",
+          "fontWeight": 500,
+          "gap": "8px",
+          "active": {
+            "background": "#FFFFFF",
+            "border": "1px solid #111111",
+            "color": "#111111"
+          },
+          "inactive": {
+            "background": "#F7F5F2",
+            "border": "1px solid transparent",
+            "color": "#555555"
+          },
+          "items": ["Exploration", "Sunrise Explorer", "Tour Guide", "Adventure", "Sunrise Viewing", "Private Bromo"]
+        },
+        "steps": [
+          { "n": 1, "title": "Choose a Package", "desc": "Select the tour that best fits your schedule and travel style." },
+          { "n": 2, "title": "Check Availability", "desc": "Pick your preferred date and group size." },
+          { "n": 3, "title": "Make a Reservation", "desc": "Confirm your booking securely online in minutes." },
+          { "n": 4, "title": "Enjoy the Experience", "desc": "" }
+        ],
+        "stepActive": {
+          "background": "#FFFFFF",
+          "border": "1px solid #E8E4DF",
+          "borderRadius": "10px",
+          "padding": "16px 20px"
+        },
+        "stepInactive": {
+          "background": "transparent",
+          "padding": "12px 20px"
+        },
+        "rightPhoto": {
+          "aspectRatio": "4/5",
+          "borderRadius": "16px",
+          "overlayCard": {
+            "position": "bottom: 24px, left: 24px, right: 24px",
+            "background": "rgba(255,255,255,0.12)",
+            "backdropFilter": "blur(12px)",
+            "border": "1px solid rgba(255,255,255,0.2)",
+            "borderRadius": "12px",
+            "padding": "18px 20px",
+            "text": "Plan your Mount Bromo adventure in minutes with our simple and secure...",
+            "textColor": "#FFFFFF",
+            "ctaButton": {
+              "style": "circle 36px, background white, icon arrow",
+              "background": "#FFFFFF",
+              "color": "#111111",
+              "borderRadius": "50%"
+            }
+          }
+        }
+      },
+
+      "testimonials": {
+        "background": "#FFFFFF",
+        "paddingY": "80px",
+        "eyebrow": "Captured Memories",
+        "title": "Capture Your Mount Bromo Journey Forever",
+        "desc": "Relive every sunrise, trail, and volcanic moment with professional photo and video documentation...",
+        "layout": "5 cards side by side, horizontal",
+        "card": {
+          "background": "#FFFFFF",
+          "border": "none",
+          "shadow": "none",
+          "padding": "16px",
+          "layout": "column: avatar → stars → name → quote",
+          "avatarSize": "60px",
+          "avatarShape": "circle",
+          "starsColor": "#F5C033",
+          "nameStyle": "13px, 600, #111111",
+          "quoteStyle": "12px, 400, #555555"
+        },
+        "people": [
+          { "name": "Iki Putri", "stars": 5 },
+          { "name": "Ahmad Fauzi", "stars": 5 },
+          { "name": "Alya Rahman", "stars": 5 },
+          { "name": "Rizky Aditya", "stars": 5 },
+          { "name": "Siti Nurfitria", "stars": 5 }
+        ]
+      },
+
+      "cta": {
+        "type": "full bleed photo section",
+        "image": "wide landscape of Mount Bromo from above, warm golden tones",
+        "overlay": "rgba(0,0,0,0.45)",
+        "paddingY": "120px",
+        "contentAlign": "center",
+        "title": "Experience the Magic of Mount Bromo Today",
+        "titleColor": "#FFFFFF",
+        "titleFont": "Playfair Display, 700",
+        "desc": "Discover breathtaking views, volcanic landscapes, and unforgettable moments in one of Indonesia's most iconic destinations.",
+        "descColor": "rgba(255,255,255,0.75)",
+        "button": {
+          "label": "Reserve Your Tour Now →",
+          "background": "rgba(255,255,255,0.15)",
+          "border": "1px solid rgba(255,255,255,0.5)",
+          "color": "#FFFFFF",
+          "borderRadius": "9999px",
+          "backdropFilter": "blur(8px)",
+          "padding": "13px 28px",
+          "fontSize": "14px",
+          "fontWeight": 500
+        }
+      },
+
+      "footer": {
+        "background": "#1C1C1C",
+        "paddingTop": "64px",
+        "paddingBottom": "32px",
+        "columns": [
+          {
+            "id": "brand",
+            "logoText": "BromoRao / BromoRise",
+            "logoIconShape": "circle with mountain icon",
+            "about": "We provide curated Mount Bromo travel experiences with expert local guides, safe transportation, and unforgettable scenic moments.",
+            "aboutColor": "rgba(255,255,255,0.5)",
+            "aboutFontSize": "13px"
+          },
+          {
+            "id": "quickLinks",
+            "title": "Quick Links",
+            "links": ["Home", "About", "Packages", "Tour Tracks", "New Tracks"]
+          },
+          {
+            "id": "contact",
+            "title": "Contact Info",
+            "items": ["hello@bromorise.com", "+62 812 XXXX XXX", "East Java, Indonesia"]
+          },
+          {
+            "id": "newsletter",
+            "title": "Newsletter",
+            "inputPlaceholder": "Enter your email address",
+            "inputStyle": {
+              "background": "transparent",
+              "border": "1px solid rgba(255,255,255,0.15)",
+              "borderRadius": "9999px",
+              "padding": "11px 20px",
+              "color": "#FFFFFF",
+              "fontSize": "13px"
+            },
+            "submitButton": {
+              "label": "Subscribe",
+              "background": "#FFFFFF",
+              "color": "#111111",
+              "borderRadius": "9999px",
+              "padding": "11px 20px",
+              "fontSize": "13px",
+              "fontWeight": 600
+            }
+          }
+        ],
+        "bottomBar": {
+          "dividerColor": "rgba(255,255,255,0.08)",
+          "copyright": "© 2026 BromoRise. All rights reserved.",
+          "socialIcons": {
+            "platforms": ["Instagram", "Facebook", "TikTok", "Twitter/X"],
+            "style": {
+              "size": "32px",
+              "borderRadius": "50%",
+              "border": "1px solid rgba(255,255,255,0.15)",
+              "background": "transparent",
+              "iconColor": "rgba(255,255,255,0.6)"
+            }
+          }
+        }
+      }
+    }
+  }
+}

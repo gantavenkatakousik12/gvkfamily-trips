@@ -1,0 +1,131 @@
+{
+  "varanasi": [
+    {
+      "name": "Varanasi City Center",
+      "coordinates": { "lat": 25.3167, "lng": 83.0104 },
+      "map_link": "https://www.google.com/maps?q=25.3167,83.0104"
+    },
+    {
+      "name": "Dashashwamedh Ghat",
+      "coordinates": { "lat": 25.3066, "lng": 83.0103 },
+      "map_link": "https://www.google.com/maps?q=25.3066,83.0103"
+    },
+    {
+      "name": "Kashi Vishwanath Temple",
+      "coordinates": { "lat": 25.3109, "lng": 83.0107 },
+      "map_link": "https://www.google.com/maps?q=25.3109,83.0107"
+    },
+    {
+      "name": "Assi Ghat",
+      "coordinates": { "lat": 25.2880, "lng": 83.0030 },
+      "map_link": "https://www.google.com/maps?q=25.2880,83.0030"
+    },
+    {
+      "name": "Manikarnika Ghat",
+      "coordinates": { "lat": 25.3100, "lng": 83.0130 },
+      "map_link": "https://www.google.com/maps?q=25.3100,83.0130"
+    },
+    {
+      "name": "Sarnath (Dhamek Stupa)",
+      "coordinates": { "lat": 25.376165, "lng": 83.022713 },
+      "map_link": "https://www.google.com/maps?q=25.376165,83.022713"
+    }
+  ],
+
+  "ayodhya": [
+    {
+      "name": "Ram Mandir Ayodhya",
+      "coordinates": { "lat": 26.7956, "lng": 82.1943 },
+      "map_link": "https://www.google.com/maps?q=26.7956,82.1943"
+    },
+    {
+      "name": "Hanuman Garhi",
+      "coordinates": { "lat": 26.7983, "lng": 82.2045 },
+      "map_link": "https://www.google.com/maps?q=26.7983,82.2045"
+    },
+    {
+      "name": "Kanak Bhawan",
+      "coordinates": { "lat": 26.7965, "lng": 82.2055 },
+      "map_link": "https://www.google.com/maps?q=26.7965,82.2055"
+    },
+    {
+      "name": "Ram Ki Paidi",
+      "coordinates": { "lat": 26.7995, "lng": 82.2030 },
+      "map_link": "https://www.google.com/maps?q=26.7995,82.2030"
+    },
+    {
+      "name": "Saryu River Ghat",
+      "coordinates": { "lat": 26.8040, "lng": 82.1990 },
+      "map_link": "https://www.google.com/maps?q=26.8040,82.1990"
+    },
+    {
+      "name": "Guptar Ghat",
+      "coordinates": { "lat": 26.7800, "lng": 82.1700 },
+      "map_link": "https://www.google.com/maps?q=26.7800,82.1700"
+    }
+  ],
+
+  "delhi": [
+    {
+      "name": "New Delhi Railway Station",
+      "coordinates": { "lat": 28.6415, "lng": 77.2205 },
+      "map_link": "https://www.google.com/maps?q=28.6415,77.2205"
+    },
+    {
+      "name": "India Gate",
+      "coordinates": { "lat": 28.6129, "lng": 77.2295 },
+      "map_link": "https://www.google.com/maps?q=28.6129,77.2295"
+    },
+    {
+      "name": "Red Fort",
+      "coordinates": { "lat": 28.6562, "lng": 77.2410 },
+      "map_link": "https://www.google.com/maps?q=28.6562,77.2410"
+    },
+    {
+      "name": "Qutub Minar",
+      "coordinates": { "lat": 28.5245, "lng": 77.1855 },
+      "map_link": "https://www.google.com/maps?q=28.5245,77.1855"
+    }
+  ],
+
+  "agra_optional": [
+    {
+      "name": "Taj Mahal",
+      "coordinates": { "lat": 27.176670, "lng": 78.008072 },
+      "map_link": "https://www.google.com/maps?q=27.176670,78.008072"
+    },
+    {
+      "name": "Agra Fort",
+      "coordinates": { "lat": 27.1795, "lng": 78.0211 },
+      "map_link": "https://www.google.com/maps?q=27.1795,78.0211"
+    }
+  ],
+
+  "transport_nodes": [
+    {
+      "name": "Vijayawada Junction (BZA)",
+      "coordinates": { "lat": 16.5167, "lng": 80.6167 },
+      "map_link": "https://www.google.com/maps?q=16.5167,80.6167"
+    },
+    {
+      "name": "Varanasi Junction (BSB)",
+      "coordinates": { "lat": 25.3176, "lng": 82.9739 },
+      "map_link": "https://www.google.com/maps?q=25.3176,82.9739"
+    },
+    {
+      "name": "Ayodhya Dham Junction",
+      "coordinates": { "lat": 26.7990, "lng": 82.1980 },
+      "map_link": "https://www.google.com/maps?q=26.7990,82.1980"
+    },
+    {
+      "name": "Lucknow Airport (LKO)",
+      "coordinates": { "lat": 26.7606, "lng": 80.8893 },
+      "map_link": "https://www.google.com/maps?q=26.7606,80.8893"
+    },
+    {
+      "name": "Delhi Airport (DEL)",
+      "coordinates": { "lat": 28.5562, "lng": 77.1000 },
+      "map_link": "https://www.google.com/maps?q=28.5562,77.1000"
+    }
+  ]
+}
